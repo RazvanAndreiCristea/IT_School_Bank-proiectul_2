@@ -19,6 +19,13 @@ class Cont_Bancar // clasa conturilor bancare
 
 public:
 	Cont_Bancar(std::string nume, std::string prenume, std::string IBAN);
+
+	std::string get_nume() { return nume; }
+	std::string get_prenume() { return prenume; }
+	int get_sold() { return sold; }
+	std::string get_IBAN() { return IBAN; }
+	void set_sold(int value) { sold = value; }
+
 	~Cont_Bancar();
 
 };

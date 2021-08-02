@@ -9,7 +9,7 @@ enum class Tip_cont // am creat o enumeratie care are specificatorul de acces pe
 	CONT_DOLAR
 };
 
-class Cont_Bancar
+class Cont_Bancar // clasa conturilor bancare
 {
 	std::string nume;
 	std::string prenume;
